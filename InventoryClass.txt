@@ -1,0 +1,53 @@
+public class Inventory {
+
+	private ObservableList<Part> allParts;
+	private ObservableList<Product> allProducts;
+
+	public void addPart(Part part) {
+		//add to allParts
+	}
+
+	public void addProduct(Product product) {
+		//add to allProducts
+	}
+
+	public Part lookupPart(int id) {
+		//add code
+	}
+
+	public Product lookupProduct(int id) {
+		//add code
+	}
+
+	public ObservableList<Part> lookupPart(String name) {
+		//add code
+	}
+
+	public ObservableList<Product> lookupProduct(String name) {
+		//add code
+	}
+
+	public void updatePart(int index, Part selectedPart) {
+		//add code
+	}
+
+	public void updateProduct(int index, Product selectedProduct) {
+		//add code
+	}
+
+	public void deletePart(Part selectedPart) {
+		//add code
+	}
+
+	public void deleteProduct(Product selectedProduct) {
+		//add code
+	}
+
+	public ObservableList<Part> getAllParts() {
+		return allParts;
+	}
+
+	public ObservableList<Product> getAllProducts() {
+		return allProducts;
+	}
+}
